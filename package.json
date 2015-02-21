@@ -15,6 +15,10 @@
     "cloud-files",
     "aws"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pkgcloud/pkgcloud-sync.git"
+  },
   "author": "Ken Perkins <ken.perkins@rackspace.com>",
   "license": "MIT",
   "dependencies": {
