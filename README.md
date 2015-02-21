@@ -1,8 +1,8 @@
-### pkgcloud-sync
+# pkgcloud-sync
 
 A cloud storage syncing library. Allows you to synchronize a container from one cloud to another.
 
-Currently supported storage providers are:
+#### Supported Providers
 
 - Amazon AWS Simple Storage Service (s3) `amazon`
 - HP Cloud `hp`
@@ -40,7 +40,9 @@ sync.run(function(err) {
 
 This will sync all of the contents of container `my-container` from the `DFW` region to the `IAD` region for Rackspace. Subsequent executions of the sync will validate contents before uploading, thus saving significant time.
 
-** It is strongly encouraged to run this from either the source or destination region. **
+**It is strongly encouraged to run this from either the source or destination region.**
+
+#### Unsupported Providers
 
 The following providers are unsupported at this time:
 
